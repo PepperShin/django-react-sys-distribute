@@ -4,7 +4,7 @@ services:
   backend:
     build:
       context: .
-      dockerfile: backend/dockerfile
+      dockerfile: backend/Dockerfile
     environment:
       - DJANGO_SETTINGS_MODULE=backend.config.settings.prod
     command: >

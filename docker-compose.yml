@@ -20,7 +20,6 @@ services:
       - media:/app/backend/media
     expose:
       - "8000"
-    # dev_6
     depends_on:
       - db
 
@@ -56,5 +55,4 @@ services:
 volumes:
     static:
     media:
-    # dev_6
     db-data: 
